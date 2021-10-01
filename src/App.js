@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://maikerucode.github.io/myfirstreact"
+          href="https://cyapher.github.io/myfirstreact/"
           target="_blank"
           rel="noopener noreferrer"
         >
