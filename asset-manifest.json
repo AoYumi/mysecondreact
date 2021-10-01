@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mysecondreact/static/css/main.babdc6f8.chunk.css",
+    "main.css": "/mysecondreact/static/css/main.b54fbb4e.chunk.css",
     "main.js": "/mysecondreact/static/js/main.15c72cd2.chunk.js",
     "main.js.map": "/mysecondreact/static/js/main.15c72cd2.chunk.js.map",
     "runtime-main.js": "/mysecondreact/static/js/runtime-main.43ca0f40.js",
@@ -10,14 +10,14 @@
     "static/js/3.bd85067c.chunk.js": "/mysecondreact/static/js/3.bd85067c.chunk.js",
     "static/js/3.bd85067c.chunk.js.map": "/mysecondreact/static/js/3.bd85067c.chunk.js.map",
     "index.html": "/mysecondreact/index.html",
-    "static/css/main.babdc6f8.chunk.css.map": "/mysecondreact/static/css/main.babdc6f8.chunk.css.map",
+    "static/css/main.b54fbb4e.chunk.css.map": "/mysecondreact/static/css/main.b54fbb4e.chunk.css.map",
     "static/js/2.19e718db.chunk.js.LICENSE.txt": "/mysecondreact/static/js/2.19e718db.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/mysecondreact/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.43ca0f40.js",
     "static/js/2.19e718db.chunk.js",
-    "static/css/main.babdc6f8.chunk.css",
+    "static/css/main.b54fbb4e.chunk.css",
     "static/js/main.15c72cd2.chunk.js"
   ]
 }
