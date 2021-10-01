@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mysecondreact/static/css/main.b54fbb4e.chunk.css",
-    "main.js": "/mysecondreact/static/js/main.15c72cd2.chunk.js",
-    "main.js.map": "/mysecondreact/static/js/main.15c72cd2.chunk.js.map",
+    "main.js": "/mysecondreact/static/js/main.a5845502.chunk.js",
+    "main.js.map": "/mysecondreact/static/js/main.a5845502.chunk.js.map",
     "runtime-main.js": "/mysecondreact/static/js/runtime-main.43ca0f40.js",
     "runtime-main.js.map": "/mysecondreact/static/js/runtime-main.43ca0f40.js.map",
     "static/js/2.19e718db.chunk.js": "/mysecondreact/static/js/2.19e718db.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.43ca0f40.js",
     "static/js/2.19e718db.chunk.js",
     "static/css/main.b54fbb4e.chunk.css",
-    "static/js/main.15c72cd2.chunk.js"
+    "static/js/main.a5845502.chunk.js"
   ]
 }
