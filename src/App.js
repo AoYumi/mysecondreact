@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Greet from './Greet'; // does not need .js; both are js files
+import Message from './Message';
+import Button from './Button';
 
 function App() {
   return (
@@ -9,6 +12,16 @@ function App() {
         <p>
           いやぁぁ~~
         </p>
+        
+        <Greet name="Sir Bryan">
+        <Message/>
+        </Greet>
+        <Greet name="<o">
+        <Button/>
+        <p>Pag di mo pinindot babagsak ka</p>
+        </Greet>
+        <Greet name="Vennett"></Greet>
+
         <a
           className="App-link"
           href="https://cyapher.github.io/myfirstreact/"

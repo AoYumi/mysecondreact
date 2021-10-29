@@ -22,12 +22,16 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: #2c2c2c;
 }
 
 .App-link {
   color: #e215ed;
 }
+#Button{
+  padding: 10%;
+}
+
 
 @keyframes App-logo-spin {
   0% {
