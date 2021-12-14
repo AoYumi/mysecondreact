@@ -1,37 +1,55 @@
-import logo from './logo.svg';
 import './App.css';
 import Greet from './Greet'; // does not need .js; both are js files
 import Message from './Message';
 import Button from './Button';
+import Hello from './hello';
+import Employee from './employee';
+
+import { NavDropdown, Nav } from 'react-bootstrap';
+// import { Router } from 'react-router';
+import Router from './router';
+import { useEffect } from 'react';
+import NavBar from "./navBar";
+
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="https://imgur.com/OyXhPM6.png" className="App-logo" alt="logo" />
-        <p>
-          いやぁぁ~~
-        </p>
-        
-        <Greet name="Sir Bryan">
-        <Message/>
-        </Greet>
-        <Greet name="<o">
-        <Button/>
-        <p>Pag di mo pinindot babagsak ka</p>
-        </Greet>
-        <Greet name="Vennett"></Greet>
-
-        <a
-          className="App-link"
-          href="https://cyapher.github.io/myfirstreact/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Yamete Kudasai nii-sama~~
-        </a>
-      </header>
-    </div>
+      <NavBar/>
+      <Router/>
+        {/* <Table striped bordered hover size="sm">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td colSpan={2}>Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </Table>
+      </Container> */}
+  </div>
   );
 }
 
