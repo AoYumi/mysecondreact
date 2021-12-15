@@ -86,6 +86,7 @@ const AddEmployee = () => {
     )
 
     return (
+        <header className="Emp-header">
         <div className = "container">
             <h3>Add Employee</h3>
             <form>
@@ -140,6 +141,7 @@ const AddEmployee = () => {
                 </p>
             </form>
         </div>
+        </header>
     )
 }
 export default AddEmployee;
