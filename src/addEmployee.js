@@ -65,25 +65,24 @@ const AddEmployee = () => {
         }
     }
 
-    useEffect(
-        () =>{
-            if(employeeid){
-                employeeService.getEmployee(employeeid) //calls API
-                .then(
-                    employee =>{
-                        setName(employee.data.name);
-                        setLocation(employee.data.location);
-                        setDepartment(employee.data.department);
-                    }
-                )
-                .catch(
-                    error =>{
-                        console.error("something went wrong", error)
-                    }
-                )
-            }
+    useEffect( () => {
+        console.log(name)
+        if(employeeid){
+            employeeService.getEmployee(employeeid) //calls API
+            .then(
+                employee =>{
+                    setName(employee.data.name);
+                    setLocation(employee.data.location);
+                    setDepartment(employee.data.department);
+                }
+            )
+            .catch(
+                error =>{
+                    console.error("something went wrong", error)
+                }
+            )
         }
-    )
+    }, []);
 
     return (
         <header className="Emp-header">
