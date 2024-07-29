@@ -15,7 +15,7 @@ function Home() {
   return (
     <div>
       <header className="App-header">
-        <img src="https://imgur.com/OyXhPM6.png" className="App-logo" alt="logo" />
+        <img src="https://media.discordapp.net/attachments/520468614000934925/1264599222960001136/image.png?ex=66a9014d&is=66a7afcd&hm=e5ac90db7e1d9a6291924601b672640db47a1cfc54e4e54cf20ef26d180b5c69&=&format=webp&quality=lossless&width=610&height=525" className="App-logo" alt="logo" />
         <p>
           いやぁぁ~~
         </p>
